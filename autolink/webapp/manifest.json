@@ -1,23 +1,29 @@
 {
   "_version": "1.89.0",
+
   "sap.app": {
     "id": "autolink",
     "type": "application",
     "i18n": "i18n/i18n.properties",
+
     "applicationVersion": {
       "version": "0.0.1"
     },
+
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "resources": "resources.json",
+
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
       "version": "1.32.0",
       "toolsId": "398c369f-ac28-4680-9730-4c3254cbf60b"
     }
   },
+
   "sap.ui": {
     "technology": "UI5",
+
     "icons": {
       "icon": "",
       "favIcon": "",
@@ -26,25 +32,31 @@
       "tablet": "",
       "tablet@2": ""
     },
+
     "deviceTypes": {
       "desktop": true,
       "tablet": true,
       "phone": true
     }
   },
+
   "sap.ui5": {
     "flexEnabled": true,
+
     "dependencies": {
       "minUI5Version": "1.152.0",
+
       "libs": {
         "sap.m": {},
         "sap.ui.core": {}
       }
     },
+
     "contentDensities": {
       "compact": true,
       "cozy": true
     },
+
     "models": {
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
@@ -53,6 +65,7 @@
         }
       }
     },
+
     "resources": {
       "css": [
         {
@@ -60,34 +73,54 @@
         }
       ]
     },
+
     "routing": {
       "config": {
         "routerClass": "sap.m.routing.Router",
-        "controlAggregation": "pages",
-        "controlId": "app",
-        "transition": "slide",
-        "type": "View",
         "viewType": "XML",
-        "path": "autolink.view",
-        "async": true,
-        "viewPath": "autolink.view"
+        "viewPath": "autolink.view",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "transition": "slide",
+        "async": true
       },
+
       "routes": [
         {
-          "name": "RouteHome",
-          "pattern": ":?query:",
-          "target": [
-            "TargetHome"
-          ]
+          "pattern": "",
+          "name": "home",
+          "target": "home"
+        },
+        {
+          "pattern": "Orders",
+          "name": "Orders",
+          "target": "Orders"
+        },
+        {
+            "pattern": "productfinder",
+            "name": "productfinder",
+            "target": "productfinder"
         }
       ],
+
       "targets": {
-        "TargetHome": {
-          "id": "Home",
-          "name": "Home"
-        }
+        "home": {
+          "viewName": "Home",
+          "viewLevel": 1
+        },
+
+        "Orders": {
+          "viewName": "Orders",
+          "viewLevel": 2
+        },
+        "productfinder": {
+          "viewName": "productfinder",
+          "viewLevel": 3
       }
+    }
+  
     },
+
     "rootView": {
       "viewName": "autolink.view.App",
       "type": "XML",

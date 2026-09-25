@@ -1,7 +1,10 @@
-<mvc:View controllerName="autolink.controller.App"
-    displayBlock="true"
+<mvc:View
+    controllerName="autolink.controller.App"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <App id="app">
-    </App>
+
+    <App
+        id="app"
+        autoFocus="false"/>
+
 </mvc:View>

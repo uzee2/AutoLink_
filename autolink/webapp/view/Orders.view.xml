@@ -1,0 +1,29 @@
+<mvc:View 
+ controllerName="autolink.controller.Orders"
+ xmlns:mvc="sap.ui.core.mvc" 
+ xmlns="sap.m">
+
+ <Page id="_IDGenPage"
+        title="Orders"
+        showNavButton="true"
+        navButtonPress=".onBack">
+
+        <content>
+
+            <VBox id="_IDGenVBox4" class="sapUiMediumMargin">
+
+                <Title id="_IDGenTitle7"
+                    text="Orders"
+                    level="H2"/>
+
+                <Text id="_IDGenText13"
+                    text="Your orders will appear here."/>
+
+            </VBox>
+
+        </content>
+    <Text id= "DEMO"
+                    text="This is the AutoLink Orders page."/>
+    </Page>
+
+</mvc:View>
