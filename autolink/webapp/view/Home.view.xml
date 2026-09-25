@@ -1,0 +1,8 @@
+<mvc:View controllerName="autolink.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <Text id="Text1" text="Hello world" ></Text>
+
+    </Page>
+</mvc:View>
