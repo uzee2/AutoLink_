@@ -1,0 +1,94 @@
+{
+  "orders": [
+    {
+      "orderId": "50001001",
+      "customerId": "C10001",
+      "orderDate": "2026-09-20",
+      "requestedDeliveryDate": "2026-09-25",
+      "status": "Delivered",
+      "currency": "USD",
+      "totalAmount": 656.25
+    },
+    {
+      "orderId": "50001002",
+      "customerId": "C10001",
+      "orderDate": "2026-09-26",
+      "requestedDeliveryDate": "2026-10-01",
+      "status": "In Process",
+      "currency": "USD",
+      "totalAmount": 625.00
+    },
+    {
+      "orderId": "50001003",
+      "customerId": "C10002",
+      "orderDate": "2026-09-18",
+      "requestedDeliveryDate": "2026-09-23",
+      "status": "Delivered",
+      "currency": "USD",
+      "totalAmount": 1415.00
+    },
+    {
+      "orderId": "50001004",
+      "customerId": "C10002",
+      "orderDate": "2026-09-27",
+      "requestedDeliveryDate": "2026-10-03",
+      "status": "In Process",
+      "currency": "USD",
+      "totalAmount": 500.00
+    },
+    {
+      "orderId": "50001005",
+      "customerId": "C10003",
+      "orderDate": "2026-09-15",
+      "requestedDeliveryDate": "2026-09-20",
+      "status": "Delivered",
+      "currency": "USD",
+      "totalAmount": 1901.25
+    },
+    {
+      "orderId": "50001006",
+      "customerId": "C10003",
+      "orderDate": "2026-09-28",
+      "requestedDeliveryDate": "2026-10-05",
+      "status": "Open",
+      "currency": "USD",
+      "totalAmount": 875.00
+    },
+    {
+      "orderId": "50001007",
+      "customerId": "C10004",
+      "orderDate": "2026-09-17",
+      "requestedDeliveryDate": "2026-09-22",
+      "status": "Delivered",
+      "currency": "USD",
+      "totalAmount": 1187.50
+    },
+    {
+      "orderId": "50001008",
+      "customerId": "C10004",
+      "orderDate": "2026-09-25",
+      "requestedDeliveryDate": "2026-09-30",
+      "status": "In Process",
+      "currency": "USD",
+      "totalAmount": 420.00
+    },
+    {
+      "orderId": "50001009",
+      "customerId": "C10005",
+      "orderDate": "2026-09-19",
+      "requestedDeliveryDate": "2026-09-24",
+      "status": "Delivered",
+      "currency": "USD",
+      "totalAmount": 1895.00
+    },
+    {
+      "orderId": "50001010",
+      "customerId": "C10005",
+      "orderDate": "2026-09-27",
+      "requestedDeliveryDate": "2026-10-04",
+      "status": "Open",
+      "currency": "USD",
+      "totalAmount": 1165.00
+    }
+  ]
+}
