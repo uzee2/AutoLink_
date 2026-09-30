@@ -247,10 +247,17 @@
                         class="sectionTitle"/>
 
                     <Table
-                        id="recentOrdersTable"
-                        items="{/orders}"
-                        noDataText="No recent orders">
-
+    id="recentOrdersTable"
+    items="{
+        path: '/orders',
+        sorter: {
+            path: 'date',
+            descending: true
+        }
+    }"
+    growing="true"
+    growingThreshold="5"
+    noDataText="No recent orders">
                         <columns>
 
                             <Column id="_IDGenColumn">

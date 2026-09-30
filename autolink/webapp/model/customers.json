@@ -1,0 +1,74 @@
+{
+    "customers": [
+        {
+            "customerId": "C10001",
+            "customerName": "Northstar Auto Works",
+            "contactPerson": "Arman Khan",
+            "email": "arman.khan@northstarauto.example",
+            "phone": "+91 70000 10001",
+            "address": "Industrial Area",
+            "city": "Srinagar",
+            "state": "Jammu and Kashmir",
+            "postalCode": "190011",
+            "country": "India",
+            "customerType": "Workshop",
+            "status": "Active"
+        },
+        {
+            "customerId": "C10002",
+            "customerName": "Summit Motors",
+            "contactPerson": "Rohan Mehta",
+            "email": "rohan.mehta@summitmotors.example",
+            "phone": "+91 70000 10002",
+            "address": "Transport Nagar",
+            "city": "Jammu",
+            "state": "Jammu and Kashmir",
+            "postalCode": "180004",
+            "country": "India",
+            "customerType": "Dealer",
+            "status": "Active"
+        },
+        {
+            "customerId": "C10003",
+            "customerName": "Pioneer Auto Care",
+            "contactPerson": "Sameer Sharma",
+            "email": "sameer.sharma@pioneerauto.example",
+            "phone": "+91 70000 10003",
+            "address": "Sector 18",
+            "city": "Chandigarh",
+            "state": "Chandigarh",
+            "postalCode": "160018",
+            "country": "India",
+            "customerType": "Workshop",
+            "status": "Active"
+        },
+        {
+            "customerId": "C10004",
+            "customerName": "MetroDrive Services",
+            "contactPerson": "Aisha Rahman",
+            "email": "aisha.rahman@metrodrive.example",
+            "phone": "+91 70000 10004",
+            "address": "Andheri East",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "postalCode": "400069",
+            "country": "India",
+            "customerType": "Fleet",
+            "status": "Active"
+        },
+        {
+            "customerId": "C10005",
+            "customerName": "Evergreen Auto Solutions",
+            "contactPerson": "Vikram Singh",
+            "email": "vikram.singh@evergreenauto.example",
+            "phone": "+91 70000 10005",
+            "address": "Whitefield",
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "postalCode": "560066",
+            "country": "India",
+            "customerType": "Dealer",
+            "status": "Active"
+        }
+    ]
+}
